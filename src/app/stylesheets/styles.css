@@ -1,0 +1,112 @@
+body {
+    background-color: #f9fbfa;
+}
+
+.container {
+    width: 960px;
+}
+
+.header {
+    height: 50px;
+    margin: 39px 0 50px;
+}
+
+.header .logo {
+    background: url("../img/logo.png") left no-repeat;
+    background-size: 149px 31px;
+}
+
+.header .link {
+    text-align: right;
+}
+
+.header a:link,
+.header a:visited,
+.header a:hover,
+.header a:active {
+    text-decoration: none;
+    color: #02ab6b;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+}
+
+.form-inline {
+    display: none;
+}
+
+.form-inline #formMsg {
+    color: red;
+    text-decoration: underline red;
+    font-size: 0.8rem;
+    text-align: start;
+}
+
+#addUserMsg {
+    color: black;
+    vertical-align: center;
+    padding-top: 7px;
+    display: none;
+}
+
+#addUserMsg span {
+    font-weight: 600;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#addUserMsg ion-icon {
+    color: green !important;
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+}
+
+thead, thead a:link, thead a:visited, thead a:hover, thead a:active {
+    font-size: 0.7rem;
+    color: #646c73;
+    background-color: #f4f5f7;
+    text-decoration: none;
+}
+
+tbody {
+    color: #6e767c;
+}
+
+tbody > tr {
+    background-color: white;
+}
+
+tbody > tr:nth-child(2n) > td, tbody > tr:nth-child(2n) > th {
+    background-color: #fbfcfc;
+ }
+
+ .col-first {
+     width: 185px;
+     padding-left: 30px;
+ }
+
+ .col-second {
+     width: 270px;
+ }
+
+ .numberCircle {
+    border-radius: 50%;
+    width: 1.8em;
+    height: 1.8em;
+    padding: 0;
+    color: #a9b1b8;
+    border: 1px solid #f5f6f8;
+    text-align: center;
+  }
+
+  td a, td a ion-icon {
+      float: right;
+      color: #d4d8da !important;
+      height: 1.6em;
+      width: 1.6em;
+  }
