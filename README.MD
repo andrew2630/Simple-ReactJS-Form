@@ -1,4 +1,4 @@
-##Simple ReactJS Form 
+# Simple ReactJS Form 
 
 
 To run the project you need to have webpack installed:
@@ -6,6 +6,11 @@ To run the project you need to have webpack installed:
   $ npm install -g webpack
   ```
 
-Enter "npm start" in the command line while you are in the "Simple-ReactJS-Form" folder.
+With the command line go to the "Simple-ReactJS-Form" folder.
+
+Type:
+  ```sh
+  $ npm start
+  ```
 
 You can see the solution at "localhost:8080".
